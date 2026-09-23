@@ -1,14 +1,14 @@
-# DAR
+# DBRNet
 
-DAR is a PyTorch-based implementation for industrial image anomaly detection and segmentation. It supports the HD, MVTec AD, and VisA datasets.
+DBRNet is a PyTorch-based framework for industrial image anomaly detection and segmentation. It supports the HD, MVTec AD, and VisA datasets.
 
-The model is named `DAR` and consists of the following three modules:
+DBRNet consists of the following three modules:
 
-- `MDAR`: Multi-Level Dual Anomaly Representation.
+- `DBRF`: Dual-Branch Representation Fusion.
 - `LGFB`: Local-Global Feature Blending.
 - `LDRD`: Lightweight Detail Recovery Decoder.
 
-The model entry is the `DAR` class implemented in `model/DAR.py`.
+The main model is implemented as the `DBRNet` class in `model/DBRNet.py`.
 
 ## Project Structure
 
